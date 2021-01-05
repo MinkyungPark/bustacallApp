@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppColorWhite"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/white_titlebar_sliding"></include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@color/AppColorLightGrayTwo"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/AppColorWhite"></LinearLayout>
+
+                <LinearLayout
+                    style="@style/main_layout2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/insert_edit_box_2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="출발지"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_marginRight="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/activity_make_together_tv_startpoint_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:gravity="center"
+                            android:text="설정하기"
+                            android:textColor="#C4C5C6"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/insert_edit_box_2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="도착지"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_marginRight="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/activity_make_together_tv_endpoint_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:gravity="center"
+                            android:text="설정하기"
+                            android:textColor="#C4C5C6"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:background="@color/AppColorWhite"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragment_goandback_ll_day"
+                    style="@style/main_layout"
+                    android:background="@drawable/insert_edit_box"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="출발날짜"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/activity_make_together_tv_day_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="15dp"
+                            android:gravity="center|left"
+                            android:text="2016. 2. 4. 수"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|right">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/day_icon" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/AppColorWhite"></LinearLayout>
+                <LinearLayout
+                    style="@style/main_layout"
+                    android:layout_gravity="center"
+                    android:background="@drawable/insert_edit_box"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:id="@+id/activity_make_together_tv_time_one"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:gravity="center|left"
+                        android:text="오전 12시"
+                        android:textColor="@color/AppColorBlack"
+                        android:textSize="22sp"></TextView>
+
+                    <LinearLayout
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right|center">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/watch_icon" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/AppColorWhite"></LinearLayout>
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/together_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:id="@+id/activity_make_together_tv_text"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/AppColorGray"
+                        android:text="글을 작성해주세요"
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_marginRight="15dp"
+                        android:gravity="right|center_vertical"
+                        android:layout_weight="4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:background="@drawable/text_icon_two"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/AppColorWhite"></LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/insert_edit_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:gravity="left|center_vertical"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:background="@drawable/phone_icon"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/activity_make_together_tv_phone_num"
+                        android:singleLine="true"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@color/AppColorBlack"
+                        android:text="ㅇㅇㅇㅇㅇ"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical|right"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/AppColorWhite"></LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:background="@drawable/insert_edit_box"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <LinearLayout
+                        android:layout_marginLeft="15dp"
+                        android:gravity="left|center_vertical"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:background="@drawable/bus_icon_gray"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Spinner
+                            android:background="@null"
+                            android:id="@+id/activity_make_together_sp_bus_type"
+                            android:singleLine="true"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/AppColorBlack"
+                            android:hint="25,28,35,45인승"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_vertical|right"
+                            android:textSize="20sp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                style="@style/main_layout"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/insert_edit_box"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/rental_icon" />
+
+                <TextView
+                    android:id="@+id/activity_make_together_tv_reason"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:gravity="right|center"
+                    android:text="산악회"
+                    android:textColor="@color/AppColorBlack"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/AppColorWhite"></LinearLayout>
+
+            <LinearLayout
+                android:background="@color/AppColorLightGrayTwo"
+                android:layout_width="match_parent"
+                android:layout_height="3dp">
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    
+                    <ImageView
+                        android:background="@drawable/user_icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+                    
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="최소 출발 인원"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    
+                    <LinearLayout
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        
+                        <TextView
+                            android:id="@+id/activity_make_together_tv_min_user"
+                            android:textSize="18sp"
+                            android:textColor="@color/AppColorBlack"
+                            android:text="20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="명"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:background="@drawable/money_icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="예상 견적"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:gravity="right"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_marginRight="10dp"
+                            android:text="1인당"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/activity_make_together_tv_money"
+                            android:textSize="18sp"
+                            android:textColor="@color/colorRed"
+                            android:text="24000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:text="원"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/activity_make_together_tv_enter"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/AppColorLightGray"
+            android:gravity="center"
+            android:text="모집하기"
+            android:textColor="@color/AppColorWhite"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

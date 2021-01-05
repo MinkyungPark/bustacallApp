@@ -1,0 +1,354 @@
+키키1016
+login_bus     eT6ieWjGwzA:APA91bEaUovTsJTiKBjh9IPHhrbyV44VzrrAI3jiO5DFEUDSyi1oxcPoZ4a78bF17bCgWrAo-b-ohtOgqWWPNr-vkJaX9HOwYp1s02NWSHE6y4oPTJS-hKN2EeagmxDEfvVe1K4C-Mk1|01031928782
+마마무 |941118 |서울 |니미 | |ㅋㅋ |01031928782 |신한 |464646 |313년차 |44 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |
+마마무 |941118 |서울 |니미 | |ㅋㅋ |01031928782 |신한 |464646 |313년차 |44 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |update driver_info set driver_name = '마마무', birthday = '941118', region = '서울', bus_group = '니미', driver_img = 'http://203.252.166.242:8080/picture/image+11472129106.jpg', bus_num = 'ㅋㅋ', confirm = '', license = '', phone_num = '01031928782', account_bank = '신한', point = '0' ,account_num = '464646', career = '313년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01031928782'    |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( 'ㅋㅋ', '45인승 대형', '44', '', '', '', '', '', '','', '', '')    |
+ㅋㅋ
+ㅋㅋ
+ㅋㅋ
+login_bus     e23B2-auKhk:APA91bEiwuPSJCdyXNE7jdP-R1QrqQ55d9W_9KaGCFqRRipOZuJqBp8-1IeqNTdB4yCeltcY8Yy--haMf3usrI6fX1wZ5s5qsdvAMAoXqBLG6gTmfwYDr5f09dJm9lpu0x9K5ustvyUL|01023924866
+login_bus     ddslryOiXws:APA91bGKjIlVYam8GQIS5POfsM1piqV065kDfjtef-BYA7dyPMtkGtR36sLnXE_NLRynkAmgOh2dbTX3nhYIQSSr2KtLsiUZ-CpgTJ-0NXFKLeSxZRtNW4vzR79cgy9tYRPxKpYyYbZH|01023924866
+ | | | | | | | | | | | | | | | | | | | | | | |
+ | | | | | | | | | | | | | | | | | | | | | | |update driver_info set driver_name = '', birthday = '', region = '', bus_group = '', driver_img = '', bus_num = '', confirm = '', license = '', phone_num = '', account_bank = '', point = '0' ,account_num = '', career = '', lent_cost = '', join_day = '2016-11-19' where phone_num = '' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '', '', '', '', '', '', '', '', '','', '', '') |
+login_bus     ddslryOiXws:APA91bGKjIlVYam8GQIS5POfsM1piqV065kDfjtef-BYA7dyPMtkGtR36sLnXE_NLRynkAmgOh2dbTX3nhYIQSSr2KtLsiUZ-CpgTJ-0NXFKLeSxZRtNW4vzR79cgy9tYRPxKpYyYbZH|01023924866
+규규규 |158353 |서울 |슈수수 | |가국 |01023924866 |우리 |83561676 |23년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-1707907719.jpg |http://203.252.166.242:8080/picture/image+1853021566.jpg |http://203.252.166.242:8080/picture/image+1-510257573.jpg |http://203.252.166.242:8080/picture/image+1-1113290557.jpg |http://203.252.166.242:8080/picture/image+11745935167.jpg | | |
+규규규 |158353 |서울 |슈수수 | |가국 |01023924866 |우리 |83561676 |23년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-1707907719.jpg |http://203.252.166.242:8080/picture/image+1853021566.jpg |http://203.252.166.242:8080/picture/image+1-510257573.jpg |http://203.252.166.242:8080/picture/image+1-1113290557.jpg |http://203.252.166.242:8080/picture/image+11745935167.jpg | | |update driver_info set driver_name = '규규규', birthday = '158353', region = '서울', bus_group = '슈수수', driver_img = 'http://203.252.166.242:8080/picture/image+1-1707907719.jpg', bus_num = '가국', confirm = 'http://203.252.166.242:8080/picture/image+11745935167.jpg', license = 'http://203.252.166.242:8080/picture/image+1-1113290557.jpg', phone_num = '01023924866', account_bank = '우리', point = '0' ,account_num = '83561676', career = '23년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01023924866' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가국', '45인승 대형', '11', '', 'http://203.252.166.242:8080/picture/image+1853021566.jpg', 'http://203.252.166.242:8080/picture/image+1-510257573.jpg', '', '', '', '', '','', '', '') |
+가국
+가국
+login_bus     dYekyJLI208:APA91bEgrNBbXHyT4s4ZhcTbzs_NbUny6OKLoPCRIAD1Osh4_iZ1dykLrHE3fdVvFRdxpnpakSc1vk7o-NcbnIEUUxssIwE2j2Ao0PliEVl1jXTjdoELWvq1lwHlK12MEmJZOOh58_ZQ|01023924866
+숑숑 |333336 |서울 |호ㅓㅗ | |구구77 |01023924866 |신한 |582896542 |22년차 |1 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1755187429.jpg |http://203.252.166.242:8080/picture/image+1-1899746759.jpg |http://203.252.166.242:8080/picture/image+1-2087065097.jpg |http://203.252.166.242:8080/picture/image+1-1812182.jpg |http://203.252.166.242:8080/picture/image+1-2064014021.jpg | | |
+숑숑 |333336 |서울 |호ㅓㅗ | |구구77 |01023924866 |신한 |582896542 |22년차 |1 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1755187429.jpg |http://203.252.166.242:8080/picture/image+1-1899746759.jpg |http://203.252.166.242:8080/picture/image+1-2087065097.jpg |http://203.252.166.242:8080/picture/image+1-1812182.jpg |http://203.252.166.242:8080/picture/image+1-2064014021.jpg | | |update driver_info set driver_name = '숑숑', birthday = '333336', region = '서울', bus_group = '호ㅓㅗ', driver_img = 'http://203.252.166.242:8080/picture/image+1755187429.jpg', bus_num = '구구77', confirm = 'http://203.252.166.242:8080/picture/image+1-2064014021.jpg', license = 'http://203.252.166.242:8080/picture/image+1-1812182.jpg', phone_num = '01023924866', account_bank = '신한', point = '0' ,account_num = '582896542', career = '22년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01023924866' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '구구77', '45인승 대형', '1', '', 'http://203.252.166.242:8080/picture/image+1-1899746759.jpg', 'http://203.252.166.242:8080/picture/image+1-2087065097.jpg', '', '', '', '', '','', '', '') |
+구구77
+login_bus     dTUWJPoDQQs:APA91bGjaPDXSsz0uJ3g1ZdYITrLCujEUgw9Pqtg2y1PvbZRyVQVRSWumLKxyX1zzjdnBoSAdg1ljydlKivIJ0T04u2vDHH38VCaUAvO6p8PxmcBArhIHVP28mD6qAdXtTvFJrQiaxZD|01031928782
+login_bus     dTUWJPoDQQs:APA91bGjaPDXSsz0uJ3g1ZdYITrLCujEUgw9Pqtg2y1PvbZRyVQVRSWumLKxyX1zzjdnBoSAdg1ljydlKivIJ0T04u2vDHH38VCaUAvO6p8PxmcBArhIHVP28mD6qAdXtTvFJrQiaxZD|01031928782
+령현 |941118 |서울 |미미 | |베베베 |01031928782 |신한 |9494 |1313년차 |79 |28인승 리무진 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |
+령현 |941118 |서울 |미미 | |베베베 |01031928782 |신한 |9494 |1313년차 |79 |28인승 리무진 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |update driver_info set driver_name = '령현', birthday = '941118', region = '서울', bus_group = '미미', driver_img = 'http://203.252.166.242:8080/picture/image+11472129106.jpg', bus_num = '베베베', confirm = 'http://203.252.166.242:8080/picture/image+1614256921.jpg', license = 'http://203.252.166.242:8080/picture/image+1-2017914390.jpg', phone_num = '01031928782', account_bank = '신한', point = '0' ,account_num = '9494', career = '1313년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01031928782' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '베베베', '28인승 리무진', '79', '', 'http://203.252.166.242:8080/picture/image+11059751438.jpg', 'http://203.252.166.242:8080/picture/image+1-1417952625.jpg', '', '', '', '', '','', '', '') |
+베베베
+login_bus     cgb1jDfvXAw:APA91bHWSRWMo0F_zDkJBSs_FiLM9bD51XIJqDrsFJN_F5Acuw3JvjZ1N6LnV48HO2Kd3Vs2GzB7QEYLlBsGX2VOZzeI4CISOVIlknbMz-0y988Iy0nRd3GWi7-aRYz94XrTHAC4pj5P|01031928782
+마마무 |941118 |서울 |마미 | |베베베 |01031928782 |신한 |4646 |1313년차 |49 |25인승 소형 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |
+마마무 |941118 |서울 |마미 | |베베베 |01031928782 |신한 |4646 |1313년차 |49 |25인승 소형 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |update driver_info set driver_name = '마마무', birthday = '941118', region = '서울', bus_group = '마미', driver_img = 'http://203.252.166.242:8080/picture/image+11472129106.jpg', bus_num = '베베베', confirm = 'http://203.252.166.242:8080/picture/image+1614256921.jpg', license = 'http://203.252.166.242:8080/picture/image+1-2017914390.jpg', phone_num = '01031928782', account_bank = '신한', point = '0' ,account_num = '4646', career = '1313년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01031928782' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '베베베', '25인승 소형', '49', '', 'http://203.252.166.242:8080/picture/image+11059751438.jpg', 'http://203.252.166.242:8080/picture/image+1-1417952625.jpg', '', '', '', '', '','', '', '') |
+login_bus     e0wkFuC5ma8:APA91bETXJEsr_01ZWOslQaCjiylNK5h3_IheM212Qmx0XS7FN3uoSuFfWh7CItb9L0MplUm6NVGiRKVIXIdELZ6PCqsI-OhLREL29DuQOKYuBLoU_ERkIsrWqn31GsaqsvHN_rIkZwQ|01031768543
+login_bus     cMD37qfEv3E:APA91bEB_xCl3Y8rmGdwIbedpKkXqgXvAVplgzOH86w-0gpQyvIWH58-4Z1FNMCxaafHVXlHLyht1cYNEJ8Vj1yEogGV9wC3AgSbtK9Ja7dwPXNCipE99Pbs6UD1-rjbAP26H-eUfmYr|01023924866
+박영수 |931011 |서울 |서울 | |가6 가나다 |01031768543 |신한 |110357847800 |11년차 |12 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-2139545568.jpg |http://203.252.166.242:8080/picture/image+11977647931.jpg |http://203.252.166.242:8080/picture/image+1998247554.jpg |http://203.252.166.242:8080/picture/image+1-1546530738.jpg |http://203.252.166.242:8080/picture/image+1133618800.jpg |http://203.252.166.242:8080/picture/image+1-2126420360.jpg | |
+박영수 |931011 |서울 |서울 | |가6 가나다 |01031768543 |신한 |110357847800 |11년차 |12 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-2139545568.jpg |http://203.252.166.242:8080/picture/image+11977647931.jpg |http://203.252.166.242:8080/picture/image+1998247554.jpg |http://203.252.166.242:8080/picture/image+1-1546530738.jpg |http://203.252.166.242:8080/picture/image+1133618800.jpg |http://203.252.166.242:8080/picture/image+1-2126420360.jpg | |update driver_info set driver_name = '박영수', birthday = '931011', region = '서울', bus_group = '서울', driver_img = 'http://203.252.166.242:8080/picture/image+1-2139545568.jpg', bus_num = '가6 가나다', confirm = 'http://203.252.166.242:8080/picture/image+1-2126420360.jpg', license = 'http://203.252.166.242:8080/picture/image+1133618800.jpg', phone_num = '01031768543', account_bank = '신한', point = '0' ,account_num = '110357847800', career = '11년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01031768543' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가6 가나다', '45인승 대형', '12', '', 'http://203.252.166.242:8080/picture/image+11977647931.jpg', 'http://203.252.166.242:8080/picture/image+1998247554.jpg', 'http://203.252.166.242:8080/picture/image+1-1546530738.jpg', '', '', '', '', '','', '', '') |
+가가가 |222353 |서울 |겨로고 | |가가1111 |01023924866 |신한 |986559173 |22년차 |1 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1755187429.jpg |http://203.252.166.242:8080/picture/image+1-1899746759.jpg |http://203.252.166.242:8080/picture/image+1-2087065097.jpg |http://203.252.166.242:8080/picture/image+1-1812182.jpg |http://203.252.166.242:8080/picture/image+1-2064014021.jpg |http://203.252.166.242:8080/picture/image+1-1707907719.jpg |http://203.252.166.242:8080/picture/image+1853021566.jpg |
+가가가 |222353 |서울 |겨로고 | |가가1111 |01023924866 |신한 |986559173 |22년차 |1 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1755187429.jpg |http://203.252.166.242:8080/picture/image+1-1899746759.jpg |http://203.252.166.242:8080/picture/image+1-2087065097.jpg |http://203.252.166.242:8080/picture/image+1-1812182.jpg |http://203.252.166.242:8080/picture/image+1-2064014021.jpg |http://203.252.166.242:8080/picture/image+1-1707907719.jpg |http://203.252.166.242:8080/picture/image+1853021566.jpg |update driver_info set driver_name = '가가가', birthday = '222353', region = '서울', bus_group = '겨로고', driver_img = 'http://203.252.166.242:8080/picture/image+1755187429.jpg', bus_num = '가가1111', confirm = 'http://203.252.166.242:8080/picture/image+1853021566.jpg', license = 'http://203.252.166.242:8080/picture/image+1-1707907719.jpg', phone_num = '01023924866', account_bank = '신한', point = '0' ,account_num = '986559173', career = '22년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01023924866' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가가1111', '45인승 대형', '1', '', 'http://203.252.166.242:8080/picture/image+1-1899746759.jpg', 'http://203.252.166.242:8080/picture/image+1-2087065097.jpg', 'http://203.252.166.242:8080/picture/image+1-1812182.jpg', 'http://203.252.166.242:8080/picture/image+1-2064014021.jpg', '', '', '', '', '','', '', '') |
+login_bus     cgb1jDfvXAw:APA91bHWSRWMo0F_zDkJBSs_FiLM9bD51XIJqDrsFJN_F5Acuw3JvjZ1N6LnV48HO2Kd3Vs2GzB7QEYLlBsGX2VOZzeI4CISOVIlknbMz-0y988Iy0nRd3GWi7-aRYz94XrTHAC4pj5P|01031928782
+강령현 |941118 |세종 |세종 | |가6 1100 |01031928782 |신한 |110584800 |15년차 |50 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1201082936.jpg |http://203.252.166.242:8080/picture/image+1144493957.jpg |http://203.252.166.242:8080/picture/image+1-1687544307.jpg |http://203.252.166.242:8080/picture/image+1-2039639088.jpg |http://203.252.166.242:8080/picture/image+1-38004539.jpg | | |
+강령현 |941118 |세종 |세종 | |가6 1100 |01031928782 |신한 |110584800 |15년차 |50 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1201082936.jpg |http://203.252.166.242:8080/picture/image+1144493957.jpg |http://203.252.166.242:8080/picture/image+1-1687544307.jpg |http://203.252.166.242:8080/picture/image+1-2039639088.jpg |http://203.252.166.242:8080/picture/image+1-38004539.jpg | | |update driver_info set driver_name = '강령현', birthday = '941118', region = '세종', bus_group = '세종', driver_img = 'http://203.252.166.242:8080/picture/image+1201082936.jpg', bus_num = '가6 1100', confirm = 'http://203.252.166.242:8080/picture/image+1-38004539.jpg', license = 'http://203.252.166.242:8080/picture/image+1-2039639088.jpg', phone_num = '01031928782', account_bank = '신한', point = '0' ,account_num = '110584800', career = '15년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01031928782' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가6 1100', '45인승 대형', '50', '', 'http://203.252.166.242:8080/picture/image+1144493957.jpg', 'http://203.252.166.242:8080/picture/image+1-1687544307.jpg', '', '', '', '', '','', '', '') |
+가가1111
+login_bus     cTHMS5wApx0:APA91bHHLFCECdEYIn-5pFCQKGH4KtgENfU5_4qA3ZcylCUIuXFsdLanDKQ2hcSDvcCuO7HIxL6lPgKhI1Sh4bMnmKZBREvMvJAGfe_cHnThJb-IvAH0fhoC07JfuxCms1m0cHIkJqx-|01023924866
+김종민 |568359 |서울 |소율 | |가1011 |01023924866 |신한 |13798656 |2년차 |22 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1755187429.jpg |http://203.252.166.242:8080/picture/image+1-1899746759.jpg |http://203.252.166.242:8080/picture/image+1-2087065097.jpg |http://203.252.166.242:8080/picture/image+1-1812182.jpg |http://203.252.166.242:8080/picture/image+1-2064014021.jpg |http://203.252.166.242:8080/picture/image+1-1707907719.jpg |http://203.252.166.242:8080/picture/image+1853021566.jpg |
+김종민 |568359 |서울 |소율 | |가1011 |01023924866 |신한 |13798656 |2년차 |22 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1755187429.jpg |http://203.252.166.242:8080/picture/image+1-1899746759.jpg |http://203.252.166.242:8080/picture/image+1-2087065097.jpg |http://203.252.166.242:8080/picture/image+1-1812182.jpg |http://203.252.166.242:8080/picture/image+1-2064014021.jpg |http://203.252.166.242:8080/picture/image+1-1707907719.jpg |http://203.252.166.242:8080/picture/image+1853021566.jpg |update driver_info set driver_name = '김종민', birthday = '568359', region = '서울', bus_group = '소율', driver_img = 'http://203.252.166.242:8080/picture/image+1755187429.jpg', bus_num = '가1011', confirm = 'http://203.252.166.242:8080/picture/image+1853021566.jpg', license = 'http://203.252.166.242:8080/picture/image+1-1707907719.jpg', phone_num = '01023924866', account_bank = '신한', point = '0' ,account_num = '13798656', career = '2년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01023924866' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가1011', '45인승 대형', '22', '', 'http://203.252.166.242:8080/picture/image+1-1899746759.jpg', 'http://203.252.166.242:8080/picture/image+1-2087065097.jpg', 'http://203.252.166.242:8080/picture/image+1-1812182.jpg', 'http://203.252.166.242:8080/picture/image+1-2064014021.jpg', '', '', '', '', '','', '', '') |
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":5173605530691454561,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479553733706288%c09b472ec09b472e"},{"message_id":"0:1479553733707520%c09b472ec09b472e"}]}----------
+가6 가나다
+가6 가나다
+send_bus  가1011|229|300000|1|1user : 박영수  tokens : etb5p2fgaAY:APA91bH3MqEcDvGmUbAy4tjr08czA5pET3EY1_7lMvMZ-x4ij3zFe4NvEf5hetCEU8DJ8U8JtU1asZUsDHfOzkyqWslTJbFF6gNjply4i8n_-ZJ0-iiioKpbMOkCQ-dO_aN84Csyzdtr   message {"multicast_id":7352417466236524506,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479553809743715%8f4e9db88f4e9db8"}]}push send
+229|
+박영수|229|가6 가나다
+가6 가나다
+박영수----------가6 가나다{"multicast_id":7819033666523089038,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479554041851807%8f4e9db88f4e9db8"},{"message_id":"0:1479554041823181%c09b472ec09b472e"}]}----------
+가6 가나다
+229|1|40|20000
+2-------numrow---{"multicast_id":7604965996355474592,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479554171938745%c09b472ec09b472e"},{"message_id":"0:1479554171938064%c09b472ec09b472e"}]}----------
+가6 가나다
+가6 1100
+send_bus  가6 1100|228|1313|1|1user : 박영수  tokens : etb5p2fgaAY:APA91bH3MqEcDvGmUbAy4tjr08czA5pET3EY1_7lMvMZ-x4ij3zFe4NvEf5hetCEU8DJ8U8JtU1asZUsDHfOzkyqWslTJbFF6gNjply4i8n_-ZJ0-iiioKpbMOkCQ-dO_aN84Csyzdtr   message {"multicast_id":7294263390369804001,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479554267211082%8f4e9db88f4e9db8"}]}push send
+228|
+박영수|228|가6 가나다
+가6 가나다
+가6 가나다
+가6 가나다
+가6 가나다
+가6 가나다
+가6 1100
+가6 1100
+가6 1100
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":7439703456542871180,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479554594475851%c09b472ec09b472e"},{"message_id":"0:1479554594475256%c09b472ec09b472e"}]}----------
+박영수| 경기| 서울| 광주시법원| N서울타워 남산공원주차장| 2016. 11. 19. 토| 2| 2| 산악회| 25| 1| 24000| ㅎㅇ| 550000
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":5790696616873129880,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479554621236792%c09b472ec09b472e"},{"message_id":"0:1479554621235484%c09b472ec09b472e"}]}----------
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+가6 1100
+eaYko5yjwIo:APA91bFy4zwukZH9kh8fyeZen3kYyRphQtwmkM7srlZf43UtDyaOxnCQgTtb8PRwB6-wLTVDXE4mBoY0JA298Df_aDwDvoKHd-f6TQlbiCuFhixAr5b0lLxrnMI307zNWIG_FTiMFIQ5|01023924866
+"registration_ids" field cannot be empty
+----------
+가6 가나다
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+가1011
+login_bus     cgb1jDfvXAw:APA91bHWSRWMo0F_zDkJBSs_FiLM9bD51XIJqDrsFJN_F5Acuw3JvjZ1N6LnV48HO2Kd3Vs2GzB7QEYLlBsGX2VOZzeI4CISOVIlknbMz-0y988Iy0nRd3GWi7-aRYz94XrTHAC4pj5P|01031928782
+login_bus     chXlQkSDzck:APA91bFkcZnl18vAzmKG9i5Kw5kbFLLIzoBGKdHgNV9RwN8uSvQAVYr5Oo32i031QIQjboqnBivV0AfwdEhrgzU7mV_L990W0enUncJ3xtiHhvr3zRy50H9Jjf3EXneYDtkLv9uZ9JFc|01031928782
+뿌 |941118 |서울 |미미 | |미미박스1010 |01031928782 |신한 |4646 |13년차 |46 |28인승 리무진 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |
+뿌 |941118 |서울 |미미 | |미미박스1010 |01031928782 |신한 |4646 |13년차 |46 |28인승 리무진 | | | | |http://203.252.166.242:8080/picture/image+11472129106.jpg |http://203.252.166.242:8080/picture/image+11059751438.jpg |http://203.252.166.242:8080/picture/image+1-1417952625.jpg |http://203.252.166.242:8080/picture/image+1-2017914390.jpg |http://203.252.166.242:8080/picture/image+1614256921.jpg | | |update driver_info set driver_name = '뿌', birthday = '941118', region = '서울', bus_group = '미미', driver_img = 'http://203.252.166.242:8080/picture/image+11472129106.jpg', bus_num = '미미박스1010', confirm = 'http://203.252.166.242:8080/picture/image+1614256921.jpg', license = 'http://203.252.166.242:8080/picture/image+1-2017914390.jpg', phone_num = '01031928782', account_bank = '신한', point = '0' ,account_num = '4646', career = '13년차', lent_cost = '', join_day = '2016-11-19' where phone_num = '01031928782' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '미미박스1010', '28인승 리무진', '46', '', 'http://203.252.166.242:8080/picture/image+11059751438.jpg', 'http://203.252.166.242:8080/picture/image+1-1417952625.jpg', '', '', '', '', '','', '', '') |
+가6 가나다
+가6 가나다
+가6 가나다
+send_bus  가6 가나다|235|800000|1|1입찰 실패
+가6 가나다
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+가6 가나다
+가6 가나다
+박영수| 서울| 충남| N서울타워 남산공원주차장| 서공주IC 서공주TG방면| 2016. 11. 19. 토| 2| 2| 산악회| 25| 1| 24000| 서울| 650000
+3-------numrow---{"multicast_id":6254275654329734831,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479557501259548%c09b472ec09b472e"},{"message_id":"0:1479557501259880%c09b472ec09b472e"},{"message_id":"0:1479557501259550%c09b472ec09b472e"}]}----------
+가6 가나다
+미미박스1010
+가1011
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+미미박스1010
+가6 가나다
+send_bus  가6 가나다|238|500000|1|1user : 박영수  tokens : etb5p2fgaAY:APA91bH3MqEcDvGmUbAy4tjr08czA5pET3EY1_7lMvMZ-x4ij3zFe4NvEf5hetCEU8DJ8U8JtU1asZUsDHfOzkyqWslTJbFF6gNjply4i8n_-ZJ0-iiioKpbMOkCQ-dO_aN84Csyzdtr   message {"multicast_id":8313374842166763537,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479557935255542%8f4e9db88f4e9db8"}]}push send
+238|
+박영수|238|가6 가나다
+박영수----------가6 가나다{"multicast_id":7602474730800671814,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479558027515115%8f4e9db88f4e9db8"},{"message_id":"0:1479558027515465%c09b472ec09b472e"}]}----------
+가6 가나다
+가6 가나다
+가6 가나다
+가6 가나다
+send_bus  가6 가나다|234|8000000|1|1입찰 실패
+send_bus  가6 가나다|237|650000|-1|-1입찰 실패
+send_bus  가6 가나다|234|800000|1|1입찰 실패
+send_bus  가6 가나다|234|2557|1|1입찰 실패
+가6 가나다
+send_bus  가6 가나다|234|33|1|1입찰 실패
+가6 가나다
+send_bus  가6 가나다|234|6565|1|1입찰 실패
+send_bus  가6 가나다|234|6565|1|1입찰 실패
+send_bus  가6 가나다|234|6565|1|1입찰 실패
+send_bus  가6 가나다|234|6565|1|1입찰 실패
+send_bus  가6 가나다|237|650000|-1|-1입찰 실패
+미미박스1010
+2016-11-26|
+2016-11-26|
+2016-11-26|3-------numrow---{"multicast_id":7690179438739739512,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479559141042852%c09b472ec09b472e"},{"message_id":"0:1479559141041002%c09b472ec09b472e"},{"message_id":"0:1479559141042850%c09b472ec09b472e"}]}----------
+send_bus  가1011|239|50000|1|1user : 박영수  tokens : etb5p2fgaAY:APA91bH3MqEcDvGmUbAy4tjr08czA5pET3EY1_7lMvMZ-x4ij3zFe4NvEf5hetCEU8DJ8U8JtU1asZUsDHfOzkyqWslTJbFF6gNjply4i8n_-ZJ0-iiioKpbMOkCQ-dO_aN84Csyzdtr   message {"multicast_id":4984013091329558124,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479559216506987%8f4e9db88f4e9db8"}]}push send
+239|
+박영수|239|가1011
+미미박스1010
+미미박스1010
+2016-11-26|
+2016-11-26|
+2016-11-26|3-------numrow---{"multicast_id":5450060901410532234,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479562042280218%c09b472ec09b472e"},{"message_id":"0:1479562042279977%c09b472ec09b472e"},{"message_id":"0:1479562042284972%c09b472ec09b472e"}]}----------
+미미박스1010
+2016-11-26|
+2016-11-26|
+2016-11-26|3-------numrow---{"multicast_id":6247474629325639677,"success":3,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479562207279660%c09b472ec09b472e"},{"message_id":"0:1479562207279234%c09b472ec09b472e"},{"message_id":"0:1479562207280768%c09b472ec09b472e"}]}----------
+미미박스1010
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":7710097038859778236,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479562353505775%c09b472ec09b472e"},{"message_id":"0:1479562353505778%c09b472ec09b472e"}]}----------
+가1011
+미미박스1010
+미미박스1010
+미미박스1010
+미미박스1010
+미미박스1010
+가6 가나다
+가6 가나다
+가6 가나다
+미미박스1010
+가1011
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":6813721013854291042,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479564894839868%c09b472ec09b472e"},{"message_id":"0:1479564894838214%c09b472ec09b472e"}]}----------
+가6 가나다
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":8429068681780332557,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479564944513700%c09b472ec09b472e"},{"message_id":"0:1479564944513702%c09b472ec09b472e"}]}----------
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":8018645376553202704,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479564957598204%c09b472ec09b472e"},{"message_id":"0:1479564957598045%c09b472ec09b472e"}]}----------
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":6846803834593291761,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479566728181739%c09b472ec09b472e"},{"message_id":"0:1479566728182825%c09b472ec09b472e"}]}----------
+가6 가나다
+2016-11-26|
+2016-11-26|
+2016-11-26|2-------numrow---{"multicast_id":7025475834483228317,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479566741851453%c09b472ec09b472e"},{"message_id":"0:1479566741851454%c09b472ec09b472e"}]}----------
+2016-11-26|
+2016-11-26|
+2016-11-26|"registration_ids" field cannot be empty
+----------
+김종민| 서울| 강원| 서울동부지방법원| 소양강처녀상| 2016. 11. 19. 토| 2| 2| 산악회| 25| 1| 24000| ㅎㅇ| 550000
+2-------numrow---{"multicast_id":7350586264134977366,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479566872377965%c09b472ec09b472e"},{"message_id":"0:1479566872377967%c09b472ec09b472e"}]}----------
+가6 가나다
+send_bus  |249|3283980|1|1입찰 실패
+send_bus  |249|3283980|1|1입찰 실패
+가1011
+send_bus  가1011|249|30000000|1|1user : 강령현  tokens : dzkZGrk9fp4:APA91bHJLBoB_6q8r7iimkANXabRSMm15S2EBvn3sNqugY6XsgM7eueGlH65XncJfeju4Tp323iiZieZJQOglMl91PpXfCp3OuiLKC9dAPj_E3Px4HQxhortI9lB5EUbmE5Pr9isT88Y   message {"multicast_id":5247956189040523902,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479567009394916%8f4e9db88f4e9db8"}]}push send
+send_bus  미미박스1010|248|46|1|1입찰 실패
+send_bus  가6 가나다|248|300075451|1|1user : 박영수  tokens : etb5p2fgaAY:APA91bH3MqEcDvGmUbAy4tjr08czA5pET3EY1_7lMvMZ-x4ij3zFe4NvEf5hetCEU8DJ8U8JtU1asZUsDHfOzkyqWslTJbFF6gNjply4i8n_-ZJ0-iiioKpbMOkCQ-dO_aN84Csyzdtr   message {"multicast_id":6611512772099009024,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479567095173064%8f4e9db88f4e9db8"}]}push send
+send_bus  가6 가나다|248|300075451|1|1입찰 실패
+248|
+박영수|248|미미박스1010
+박영수----------미미박스1010"registration_ids" field cannot be empty
+----------
+박영수----------미미박스1010"registration_ids" field cannot be empty
+----------
+248|0|0|
+248|0|0|
+1----------{"multicast_id":5630172708389815693,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479567800152441%8f4e9db88f4e9db8"}]}----------
+--김종민--
+--김종민--
+가1011
+가6 가나다
+send_bus  미미박스1010|252|550000|-1|-1user : 김종민  tokens : eaYko5yjwIo:APA91bFy4zwukZH9kh8fyeZen3kYyRphQtwmkM7srlZf43UtDyaOxnCQgTtb8PRwB6-wLTVDXE4mBoY0JA298Df_aDwDvoKHd-f6TQlbiCuFhixAr5b0lLxrnMI307zNWIG_FTiMFIQ5   message {"multicast_id":7561569373188533769,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1479568037136594%8f4e9db88f4e9db8"}]}push send
+--김종민--가1011
+가1011
+--김종민--가1011
+가1011
+--김종민--가1011
+미미박스1010
+미미박스1010
+미미박스1010
+login_bus     cv7sTW5YBAA:APA91bG8ei1j8p21ljx58g4syvzQ0FnwRjmhLeTkL_x6da98ULq9dXX2lpzibugEVN1eJyYy0CRNE9xu7E_aRFfIFVCO4opRCKEggupI8gI9PM7s0UkhzElr8zUQrAWgPJD1h6tzj7_T|01033400094
+박준범 |910119 |경기 |버스타콜 | |서울 가 1566 |01033400094 |신한 |110296103074 |12년차 |2009 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-511603783.jpg |http://203.252.166.242:8080/picture/image+1-1756570044.jpg |http://203.252.166.242:8080/picture/image+1611762473.jpg |http://203.252.166.242:8080/picture/image+11956975632.jpg |http://203.252.166.242:8080/picture/image+1846637004.jpg | | |
+박준범 |910119 |경기 |버스타콜 | |서울 가 1566 |01033400094 |신한 |110296103074 |12년차 |2009 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-511603783.jpg |http://203.252.166.242:8080/picture/image+1-1756570044.jpg |http://203.252.166.242:8080/picture/image+1611762473.jpg |http://203.252.166.242:8080/picture/image+11956975632.jpg |http://203.252.166.242:8080/picture/image+1846637004.jpg | | |update driver_info set driver_name = '박준범', birthday = '910119', region = '경기', bus_group = '버스타콜', driver_img = 'http://203.252.166.242:8080/picture/image+1-511603783.jpg', bus_num = '서울 가 1566', confirm = 'http://203.252.166.242:8080/picture/image+1846637004.jpg', license = 'http://203.252.166.242:8080/picture/image+11956975632.jpg', phone_num = '01033400094', account_bank = '신한', point = '0' ,account_num = '110296103074', career = '12년차', lent_cost = '', join_day = '2016-11-20' where phone_num = '01033400094' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '서울 가 1566', '45인승 대형', '2009', '', 'http://203.252.166.242:8080/picture/image+1-1756570044.jpg', 'http://203.252.166.242:8080/picture/image+1611762473.jpg', '', '', '', '', '','', '', '') |
+cCaweiYOonA:APA91bF9CttmLLGYfPcBR4v98R8WTOQsrIxRa4e0PfoWTKLOjeZWNBgRBCSNfWCI_C7EddQOVJYCEQEHtGdNIVBl63qjfim7oSuIUgPHAvFB-PImFhQiBC65HVoNzOrdU-CtVcPsFTt1|01033400094
+f98tRZnEELI:APA91bH0efOlHUqOcxABXN3LD0n9yPC-yFMRsloT5eq7Lh9HqUI12SWm9XTLawXuTIIkj3dDUGkw_cRiEhu2heyPZKr864q4_e4KIAQKHjkkp6d0ASkBNtX8tPWHqiCpBbBjJuieecI2|01053496382
+fkiupIxyG60:APA91bEzQSyyJntyI0-AagRFgLNR062YXRc8ts31lJzmb-CgQK0u4qfUIqnpFMxuEiyochvQwqrGul7r_cQUP5Y6ZgczX5oF0a-Nt5wL-hVbn3y0kHDF-FXNvhRyNYvBXJ6A0D6noxRh|01091108464
+login_bus     ce80QO_HSHU:APA91bHRsckcWAbpeo15VQymQF2VOzJ2pIves9oqsxIjbFBkTIMGd1SAqG3aYeKMGWsJQgFbY3TOjC2PZpg8gDSy8rkTWNOwujkPw8ogExWMpYA_2ZAULBgfH7AuAjHaV9-Jz5pY8324|01092830009
+login_bus     ce80QO_HSHU:APA91bHRsckcWAbpeo15VQymQF2VOzJ2pIves9oqsxIjbFBkTIMGd1SAqG3aYeKMGWsJQgFbY3TOjC2PZpg8gDSy8rkTWNOwujkPw8ogExWMpYA_2ZAULBgfH7AuAjHaV9-Jz5pY8324|01031928782
+현우 |900000 |서울 |다우장 | |1010기기 |01031928782 |신한 |191946767698 |20년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11573743724.jpg |http://203.252.166.242:8080/picture/image+11107039264.jpg |http://203.252.166.242:8080/picture/image+1107220662.jpg |http://203.252.166.242:8080/picture/image+1469701278.jpg |http://203.252.166.242:8080/picture/image+11546171554.jpg | | |
+현우 |900000 |서울 |다우장 | |1010기기 |01031928782 |신한 |191946767698 |20년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11573743724.jpg |http://203.252.166.242:8080/picture/image+11107039264.jpg |http://203.252.166.242:8080/picture/image+1107220662.jpg |http://203.252.166.242:8080/picture/image+1469701278.jpg |http://203.252.166.242:8080/picture/image+11546171554.jpg | | |update driver_info set driver_name = '현우', birthday = '900000', region = '서울', bus_group = '다우장', driver_img = 'http://203.252.166.242:8080/picture/image+11573743724.jpg', bus_num = '1010기기', confirm = 'http://203.252.166.242:8080/picture/image+11546171554.jpg', license = 'http://203.252.166.242:8080/picture/image+1469701278.jpg', phone_num = '01031928782', account_bank = '신한', point = '0' ,account_num = '191946767698', career = '20년차', lent_cost = '', join_day = '2016-11-21' where phone_num = '01031928782' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '1010기기', '45인승 대형', '11', '', 'http://203.252.166.242:8080/picture/image+11107039264.jpg', 'http://203.252.166.242:8080/picture/image+1107220662.jpg', '', '', '', '', '','', '', '') |
+send_bus  1010기기|251|313|1|1입찰 실패
+ezBAKrOL4I0:APA91bEQO0Nq7ewtcMVJ1S5G1Js75_UuXCrWftOLThUW9I4vQqfuk3QmpkLfVbQQSsaHLOizTY8q1U6sZMw0JoY1qu68jBZEUAtdsFyCGa7kRhNOEQR4Oyi5qK5y3XMqi3UTJ36YdPOY|01023990028
+login_bus     fysbByA9ats:APA91bGjatdQN5pJ0B8-qx8eR8q04UIAerofGr8zZ7HHgSVPH2TG3UWBj7OLAqGxw5ID5W04iJS3k33CxrXOmlOwzTGefHz_MweSGYL7yc8f5gjQbYQauCMaH8oKINk7mQ3lNn4Y-Glx|01091108464
+login_bus     fysbByA9ats:APA91bGjatdQN5pJ0B8-qx8eR8q04UIAerofGr8zZ7HHgSVPH2TG3UWBj7OLAqGxw5ID5W04iJS3k33CxrXOmlOwzTGefHz_MweSGYL7yc8f5gjQbYQauCMaH8oKINk7mQ3lNn4Y-Glx|01091108464
+가6 가나다
+가6 가나다
+가6 가나다
+가6 가나다
+dGJnil6oI9o:APA91bFeDDUeeq6hs2iA8bQL_OAXqGc0iAlJBw11XVwHXyNRyfHT46p3B_bpZB27vvylVR8UdNI_XnmEjgmD3FRUmVdQ5hpefvB-jIR5iIxlElarLTa8o_fT3mcid11iOlS5yXXygqoB|01027679287
+dGJnil6oI9o:APA91bFeDDUeeq6hs2iA8bQL_OAXqGc0iAlJBw11XVwHXyNRyfHT46p3B_bpZB27vvylVR8UdNI_XnmEjgmD3FRUmVdQ5hpefvB-jIR5iIxlElarLTa8o_fT3mcid11iOlS5yXXygqoB|01027679287
+cbDHo8D0v7w:APA91bGSQKiOVPog6-hJTMFKzVTHKAH5Yunwo2djXbi3H6_kMw2Zg5Gihlk8gZGN11ZEZLSo4XFzWHMURY53xT4vHnmidNBr96I9n3CQntolEtjSwLfn8Slpmmi1YOGyRbWPZptp7DH6|01065643691
+박영수| 서울| 서울| 건국대학교| 세바른병원 강서점| 2016. 11. 22. 화| 2| 2| 산악회| 25| 1| 24000| ㅎㅇ| 550000
+login_bus     APA91bEzxR4VqTRgatylfF9QWh7RetMqQe4i5OhrNmHCAgLLEzsD82ax8ETZ-MJVOI3av948vTQtS52KQT-qn1E84bUJ6zeMKgHU8aNiqeM9XbolrrveWccwCI3fmA6s492NWBtLtpHWkMonk3yJbnn9dSjc9l9m4w|01023950028
+login_bus     APA91bEzxR4VqTRgatylfF9QWh7RetMqQe4i5OhrNmHCAgLLEzsD82ax8ETZ-MJVOI3av948vTQtS52KQT-qn1E84bUJ6zeMKgHU8aNiqeM9XbolrrveWccwCI3fmA6s492NWBtLtpHWkMonk3yJbnn9dSjc9l9m4w|01023950028
+login_bus     APA91bEzxR4VqTRgatylfF9QWh7RetMqQe4i5OhrNmHCAgLLEzsD82ax8ETZ-MJVOI3av948vTQtS52KQT-qn1E84bUJ6zeMKgHU8aNiqeM9XbolrrveWccwCI3fmA6s492NWBtLtpHWkMonk3yJbnn9dSjc9l9m4w|01011111111
+ | | | | | | | | | | | | | | | | | | | | | | |
+미미박스1010
+미미박스1010
+미미박스1010
+login_bus     dJBHHq3HeT4:APA91bHMtzC4IRvz6u3xtP49JBzUP4SRaBNag4w6AxY1jWEfb8PAbrjj9PmR5mDaM1KSCdrSsNhfORB7DGdnuM58ZW3gWIoac8qI1kUoMtsUDTMpLGkbiT5Uz3NTdml1ORmLPL8u25np|01031928782
+login_bus     APA91bH66wYk59xetPV4XDVGSjgeL5RpOjHgYWqwVNQzaB0qmFE49xIlpj7lryQowz14P3fPeJrdWK1b4fSCQccIlNZFBQhy2mqrh3Lfan-eXbFRINl9s_sAYgZqfD5uJTIUiuWftSqjB3-YdUykttDSxBFKyH0evw|01011111111
+login_bus     APA91bH66wYk59xetPV4XDVGSjgeL5RpOjHgYWqwVNQzaB0qmFE49xIlpj7lryQowz14P3fPeJrdWK1b4fSCQccIlNZFBQhy2mqrh3Lfan-eXbFRINl9s_sAYgZqfD5uJTIUiuWftSqjB3-YdUykttDSxBFKyH0evw|
+cvnwtG92lXw:APA91bFJOVhQ8IuN_s-9mMUnQ79vv0j-uRM8bYy_hHJLpJeLA_MS1PXvLy2zK4Ijk34j-6z4C2LwpKcpuijQ9pMwbl2uPHFh_IYLL0ICfizpmsIxMctll4pJRHSM8zR3nvHi5pAAVk08|01053439803
+login_bus     eLSrQf6ctGc:APA91bGZVvWDRx6r-IfTltkly3LL3_wwLq5KgmhbvYReA1tniSPiA-bJbRNyWrxTnM96TLbWakqO7H2f-_pzBwAyptyj6Iz_FkuhbMhiRlvZsh-rY3tknQQMQsa5qfDEdqy5tQmEBnDm|01039109929
+차영애  |720121 |제주 |천지교통  | |제주79바6741 |01039109929 |농협 |3560923771593 |5년차 |2008 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-1743368171.jpg |http://203.252.166.242:8080/picture/image+1-1796093605.jpg |http://203.252.166.242:8080/picture/image+1-2137390788.jpg |http://203.252.166.242:8080/picture/image+1-1740408088.jpg |http://203.252.166.242:8080/picture/image+1888943156.jpg |http://203.252.166.242:8080/picture/image+1-1859816374.jpg |http://203.252.166.242:8080/picture/image+1-713842864.jpg |
+차영애  |720121 |제주 |천지교통  | |제주79바6741 |01039109929 |농협 |3560923771593 |5년차 |2008 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-1743368171.jpg |http://203.252.166.242:8080/picture/image+1-1796093605.jpg |http://203.252.166.242:8080/picture/image+1-2137390788.jpg |http://203.252.166.242:8080/picture/image+1-1740408088.jpg |http://203.252.166.242:8080/picture/image+1888943156.jpg |http://203.252.166.242:8080/picture/image+1-1859816374.jpg |http://203.252.166.242:8080/picture/image+1-713842864.jpg |update driver_info set driver_name = '차영애 ', birthday = '720121', region = '제주', bus_group = '천지교통 ', driver_img = 'http://203.252.166.242:8080/picture/image+1-1743368171.jpg', bus_num = '제주79바6741', confirm = 'http://203.252.166.242:8080/picture/image+1-713842864.jpg', license = 'http://203.252.166.242:8080/picture/image+1-1859816374.jpg', phone_num = '01039109929', account_bank = '농협', point = '0' ,account_num = '3560923771593', career = '5년차', lent_cost = '', join_day = '2016-11-24' where phone_num = '01039109929' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '제주79바6741', '45인승 대형', '2008', '', 'http://203.252.166.242:8080/picture/image+1-1796093605.jpg', 'http://203.252.166.242:8080/picture/image+1-2137390788.jpg', 'http://203.252.166.242:8080/picture/image+1-1740408088.jpg', 'http://203.252.166.242:8080/picture/image+1888943156.jpg', '', '', '', '', '','', '', '') |
+제주79바6741
+제주79바6741
+|
+ | | | | | | | | | | | | | | | | | | | | | | |
+ | | | | | | | | | | | | | | | | | | | | | | |
+login_bus     fysbByA9ats:APA91bGjatdQN5pJ0B8-qx8eR8q04UIAerofGr8zZ7HHgSVPH2TG3UWBj7OLAqGxw5ID5W04iJS3k33CxrXOmlOwzTGefHz_MweSGYL7yc8f5gjQbYQauCMaH8oKINk7mQ3lNn4Y-Glx|01091108464
+cVpq2Q4LeoI:APA91bFOHM4WeeWczfJGNdGNYGl1ncEV_NMd-ySjvvEQGzu21hO2gZrRLeSSOKdsUbLtTz4DqnLAEM_OET-GFFNZ_CWEXL3rdXl4ODGRyTCFF7olbGI_gAGtTNYQyJvz2UlmCBhaF1M_|01057522345
+ | | | | | | | | | | | | | | | | | | | | | | |
+2016-12-11|
+2016-12-11|
+2016-12-11|3-------numrow---{"multicast_id":8452161471022927018,"success":2,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"},{"message_id":"0:1480830899503705%c09b472ec09b472e"},{"message_id":"0:1480830899503505%c09b472ec09b472e"}]}----------
+가6 가나다
+ccbkYoWPfVw:APA91bGu5c4EMvnnVUbWDKy8x0o4CP8l9X1if_qKdS5T6K3VzvnGBIjNz1QDDakVh4AMeQF-ujjGebTYBppyzyQ0uv8AKl7h4WDNQzmGJycfax7n790I7Qa9B5A4C7mGFkg7V0IdSB91|01031768543
+2016-12-11|
+2016-12-11|
+2016-12-11|2-------numrow---{"multicast_id":5587419477579576418,"success":1,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"},{"message_id":"0:1480861516755867%c09b472ec09b472e"}]}----------
+login_bus     e0wkFuC5ma8:APA91bETXJEsr_01ZWOslQaCjiylNK5h3_IheM212Qmx0XS7FN3uoSuFfWh7CItb9L0MplUm6NVGiRKVIXIdELZ6PCqsI-OhLREL29DuQOKYuBLoU_ERkIsrWqn31GsaqsvHN_rIkZwQ|01031768543
+login_bus     e0wkFuC5ma8:APA91bETXJEsr_01ZWOslQaCjiylNK5h3_IheM212Qmx0XS7FN3uoSuFfWh7CItb9L0MplUm6NVGiRKVIXIdELZ6PCqsI-OhLREL29DuQOKYuBLoU_ERkIsrWqn31GsaqsvHN_rIkZwQ|01031768543
+박기사 |931011 |서울 |서울 | |가6 1580 |01031768543 |신한 |110357847800 |15년차 |12 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11608626430.jpg |http://203.252.166.242:8080/picture/image+1-202673123.jpg |http://203.252.166.242:8080/picture/image+1-335864825.jpg |http://203.252.166.242:8080/picture/image+11943058268.jpg |http://203.252.166.242:8080/picture/image+11826767780.jpg | | |
+박기사 |931011 |서울 |서울 | |가6 1580 |01031768543 |신한 |110357847800 |15년차 |12 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11608626430.jpg |http://203.252.166.242:8080/picture/image+1-202673123.jpg |http://203.252.166.242:8080/picture/image+1-335864825.jpg |http://203.252.166.242:8080/picture/image+11943058268.jpg |http://203.252.166.242:8080/picture/image+11826767780.jpg | | |update driver_info set driver_name = '박기사', birthday = '931011', region = '서울', bus_group = '서울', driver_img = 'http://203.252.166.242:8080/picture/image+11608626430.jpg', bus_num = '가6 1580', confirm = 'http://203.252.166.242:8080/picture/image+11826767780.jpg', license = 'http://203.252.166.242:8080/picture/image+11943058268.jpg', phone_num = '01031768543', account_bank = '신한', point = '0' ,account_num = '110357847800', career = '15년차', lent_cost = '', join_day = '2016-12-04' where phone_num = '01031768543' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가6 1580', '45인승 대형', '12', '', 'http://203.252.166.242:8080/picture/image+1-202673123.jpg', 'http://203.252.166.242:8080/picture/image+1-335864825.jpg', '', '', '', '', '','', '', '') |
+2016-12-11|
+2016-12-11|
+2016-12-11|2-------numrow---{"multicast_id":8604101563490468878,"success":1,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"},{"message_id":"0:1480861677152172%c09b472ec09b472e"}]}----------
+2016-12-11|
+2016-12-11|
+2016-12-11|2-------numrow---{"multicast_id":8760745866552101090,"success":1,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"},{"message_id":"0:1480861713386415%c09b472ec09b472e"}]}----------
+255|
+박영수|255|가1011
+박영수----------가1011{"multicast_id":6585611218883475365,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1480862000701644%8f4e9db88f4e9db8"},{"message_id":"0:1480862000685553%c09b472ec09b472e"}]}----------
+----------"registration_ids" field cannot be empty
+----------
+255|1|12|10000
+박영수| 서울| 부산| 서울 노원구| 부산광역시| 2016. 12. 04. 일| 2| 2| 산악회| 25| 1| 24000| 노원에서 부산가실분| 1000000
+가6 1580
+가6 1580
+가6 1580
+login_bus     e2qj0hfIU1A:APA91bEeD587Mpi5UI9bGYIh7zGkeTnmwh1zkOIwudpp4gm8DHyfui6Evs81E6v1UEnfsID_BgS0Idr9mJcjlDOF3-JcdMK3i9Zq46VrYNbQkhDHPTLd8kK1yNo6kMiDfFdk6IOFmpXO|01031768543
+login_bus     eymHH9-UyAE:APA91bGvNsn2lEdF-jHZ-j1os6DBZoRRG_XREAq5iPPVuA1bnM9wEz8-cCy_ymw4Bab4pK1g_rJ3RVhhdNRICTkZjNwApuOjYVY2340nRDc6GJMqjkliRs6Zj_L0YWiu3oGFzS8nidzm|01031768543
+박영수 |931011 |서울 |서울 | |가6 1110 |01031768543 |신한 |110357847800 |12년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11289401305.jpg |http://203.252.166.242:8080/picture/image+11399907381.jpg |http://203.252.166.242:8080/picture/image+135886410.jpg |http://203.252.166.242:8080/picture/image+11783839789.jpg |http://203.252.166.242:8080/picture/image+1307711126.jpg | | |
+박영수 |931011 |서울 |서울 | |가6 1110 |01031768543 |신한 |110357847800 |12년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11289401305.jpg |http://203.252.166.242:8080/picture/image+11399907381.jpg |http://203.252.166.242:8080/picture/image+135886410.jpg |http://203.252.166.242:8080/picture/image+11783839789.jpg |http://203.252.166.242:8080/picture/image+1307711126.jpg | | |update driver_info set driver_name = '박영수', birthday = '931011', region = '서울', bus_group = '서울', driver_img = 'http://203.252.166.242:8080/picture/image+11289401305.jpg', bus_num = '가6 1110', confirm = 'http://203.252.166.242:8080/picture/image+1307711126.jpg', license = 'http://203.252.166.242:8080/picture/image+11783839789.jpg', phone_num = '01031768543', account_bank = '신한', point = '0' ,account_num = '110357847800', career = '12년차', lent_cost = '', join_day = '2016-12-05' where phone_num = '01031768543' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가6 1110', '45인승 대형', '11', '', 'http://203.252.166.242:8080/picture/image+11399907381.jpg', 'http://203.252.166.242:8080/picture/image+135886410.jpg', '', '', '', '', '','', '', '') |
+255|1|3|10000
+2016-12-12|
+2016-12-12|
+2016-12-12|3-------numrow---{"multicast_id":6558788170158774199,"success":2,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"},{"message_id":"0:1480905768703522%c09b472ec09b472e"},{"message_id":"0:1480905768703523%c09b472ec09b472e"}]}----------
+가6 1110
+|
+login_bus     f865B0IKs7Q:APA91bEh3_LTaca_rOBrUUqeicvdGMAd5l_E_4Hm8weNL4cRMhWVbIanwn7wsRGQMaiXHuu1mFqGBC3JugPs75skDQTC5933QRI2j1vsetc9eMrt2tJPq0Y2tao80d3kytDrIa55tBrR|01047439079
+login_bus     f865B0IKs7Q:APA91bEh3_LTaca_rOBrUUqeicvdGMAd5l_E_4Hm8weNL4cRMhWVbIanwn7wsRGQMaiXHuu1mFqGBC3JugPs75skDQTC5933QRI2j1vsetc9eMrt2tJPq0Y2tao80d3kytDrIa55tBrR|01047439079
+login_bus     APA91bHBEWTgYQYVPDwo-eq94I69WSn9UL4XLV9tqTs4JP_HfJ2R91vHx4lSpEHejWVEAPA_oT3kFzaz5j9kUmQFaDYNQBzrFEn-yw4kE21JhgcwMzx14xgcUMecZJL_ed6ee4mnwOTh0cD4VFTSJKkKMRrl5-IxOw|01023924866
+굳드라이버 |700125 |부산 |부산 | |가3 1534 |01023924866 |신한 |11254866554 |12년차 |06 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+12093174919.jpg |http://203.252.166.242:8080/picture/image+1-1700736026.jpg |http://203.252.166.242:8080/picture/image+1-604893209.jpg |http://203.252.166.242:8080/picture/image+1-1875431097.jpg |http://203.252.166.242:8080/picture/image+1490917960.jpg |http://203.252.166.242:8080/picture/image+11964740657.jpg |http://203.252.166.242:8080/picture/image+1-2128303005.jpg |
+굳드라이버 |700125 |부산 |부산 | |가3 1534 |01023924866 |신한 |11254866554 |12년차 |06 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+12093174919.jpg |http://203.252.166.242:8080/picture/image+1-1700736026.jpg |http://203.252.166.242:8080/picture/image+1-604893209.jpg |http://203.252.166.242:8080/picture/image+1-1875431097.jpg |http://203.252.166.242:8080/picture/image+1490917960.jpg |http://203.252.166.242:8080/picture/image+11964740657.jpg |http://203.252.166.242:8080/picture/image+1-2128303005.jpg |update driver_info set driver_name = '굳드라이버', birthday = '700125', region = '부산', bus_group = '부산', driver_img = 'http://203.252.166.242:8080/picture/image+12093174919.jpg', bus_num = '가3 1534', confirm = 'http://203.252.166.242:8080/picture/image+1-2128303005.jpg', license = 'http://203.252.166.242:8080/picture/image+11964740657.jpg', phone_num = '01023924866', account_bank = '신한', point = '0' ,account_num = '11254866554', career = '12년차', lent_cost = '', join_day = '2016-12-15' where phone_num = '01023924866' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '가3 1534', '45인승 대형', '06', '', 'http://203.252.166.242:8080/picture/image+1-1700736026.jpg', 'http://203.252.166.242:8080/picture/image+1-604893209.jpg', 'http://203.252.166.242:8080/picture/image+1-1875431097.jpg', 'http://203.252.166.242:8080/picture/image+1490917960.jpg', '', '', '', '', '','', '', '') |
+가3 1534
+eGQvPgoove8:APA91bEVYafaVE-zynFL401OaTZfeYXihKzyCqiLZQxL4JiIpKnGdSQqdXQrFCXPJGwXASX05oa-WDSz2rcLWe8K4aBaBcB-IKSa7wO1uiNJ1eqEy_e7BmiG8aEi4ylxc_WRdHobaAud|01023924866
+2016-12-22|
+2016-12-22|
+2016-12-22|2-------numrow---{"multicast_id":8733731976999194649,"success":1,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"},{"message_id":"0:1481781733620726%c09b472ec09b472e"}]}----------
+ | | | | | | | | | | | | | | | | | | | | | | |
+login_bus     APA91bFhjb-_3rwVb34CK0morFR3W-Ukum8ZwP0PpYTMVWKcgRW5iptPXhDUAi_yDmgIZcjl_V6sfqhkbw-ceHqKG5PRCRMgiUrfWqF8irCT7mL4-Iryvn4HzSdz7xPBR2I5fTU3imF0sDB5D8wimXnyrtEDbYwRkg|01030209363
+민경드라이버 |930528 |광주 |광주 | |나5 1512 |01030209363 |신한 |100154855664 |23년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-1089366281.jpg |http://203.252.166.242:8080/picture/image+12065902099.jpg |http://203.252.166.242:8080/picture/image+1-2138167665.jpg |http://203.252.166.242:8080/picture/image+11015436262.jpg |http://203.252.166.242:8080/picture/image+1-657207236.jpg | | |
+민경드라이버 |930528 |광주 |광주 | |나5 1512 |01030209363 |신한 |100154855664 |23년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+1-1089366281.jpg |http://203.252.166.242:8080/picture/image+12065902099.jpg |http://203.252.166.242:8080/picture/image+1-2138167665.jpg |http://203.252.166.242:8080/picture/image+11015436262.jpg |http://203.252.166.242:8080/picture/image+1-657207236.jpg | | |update driver_info set driver_name = '민경드라이버', birthday = '930528', region = '광주', bus_group = '광주', driver_img = 'http://203.252.166.242:8080/picture/image+1-1089366281.jpg', bus_num = '나5 1512', confirm = 'http://203.252.166.242:8080/picture/image+1-657207236.jpg', license = 'http://203.252.166.242:8080/picture/image+11015436262.jpg', phone_num = '01030209363', account_bank = '신한', point = '0' ,account_num = '100154855664', career = '23년차', lent_cost = '', join_day = '2016-12-15' where phone_num = '01030209363' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '나5 1512', '45인승 대형', '11', '', 'http://203.252.166.242:8080/picture/image+12065902099.jpg', 'http://203.252.166.242:8080/picture/image+1-2138167665.jpg', '', '', '', '', '','', '', '') |
+login_bus     dS2Ng5MdFtI:APA91bGphv6be2pmgU6ZJ6SMnJMr0u1ZdDRb5N9hsy18MxP2pSGAQnqowdSAzWLIPJw5jdR2XxtKsuXfw8HWxExfAVKWho5R_2oP-PXvbVQLB1V5uI9x7K8rllAN8qNcNgWqWwkC7wqb|01027242877
+가3 1534
+login_bus     dS2Ng5MdFtI:APA91bGphv6be2pmgU6ZJ6SMnJMr0u1ZdDRb5N9hsy18MxP2pSGAQnqowdSAzWLIPJw5jdR2XxtKsuXfw8HWxExfAVKWho5R_2oP-PXvbVQLB1V5uI9x7K8rllAN8qNcNgWqWwkC7wqb|01033400094
+민경드라이버 |930528 |광주 |광주 | |사6 6686 |01033400094 |신한 |110142454543 |12년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11150878100.jpg |http://203.252.166.242:8080/picture/image+1-60671048.jpg |http://203.252.166.242:8080/picture/image+11183838992.jpg |http://203.252.166.242:8080/picture/image+1304977021.jpg |http://203.252.166.242:8080/picture/image+12104692329.jpg |http://203.252.166.242:8080/picture/image+1958620313.jpg |http://203.252.166.242:8080/picture/image+11146332803.jpg |
+민경드라이버 |930528 |광주 |광주 | |사6 6686 |01033400094 |신한 |110142454543 |12년차 |11 |45인승 대형 | | | | |http://203.252.166.242:8080/picture/image+11150878100.jpg |http://203.252.166.242:8080/picture/image+1-60671048.jpg |http://203.252.166.242:8080/picture/image+11183838992.jpg |http://203.252.166.242:8080/picture/image+1304977021.jpg |http://203.252.166.242:8080/picture/image+12104692329.jpg |http://203.252.166.242:8080/picture/image+1958620313.jpg |http://203.252.166.242:8080/picture/image+11146332803.jpg |update driver_info set driver_name = '민경드라이버', birthday = '930528', region = '광주', bus_group = '광주', driver_img = 'http://203.252.166.242:8080/picture/image+11150878100.jpg', bus_num = '사6 6686', confirm = 'http://203.252.166.242:8080/picture/image+11146332803.jpg', license = 'http://203.252.166.242:8080/picture/image+1958620313.jpg', phone_num = '01033400094', account_bank = '신한', point = '0' ,account_num = '110142454543', career = '12년차', lent_cost = '', join_day = '2016-12-15' where phone_num = '01033400094' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '사6 6686', '45인승 대형', '11', '', 'http://203.252.166.242:8080/picture/image+1-60671048.jpg', 'http://203.252.166.242:8080/picture/image+11183838992.jpg', 'http://203.252.166.242:8080/picture/image+1304977021.jpg', 'http://203.252.166.242:8080/picture/image+12104692329.jpg', '', '', '', '', '','', '', '') |
+login_bus     fwIo2mxF-Tk:APA91bF8LC8TIJh5M5BwSW0aGf2XpaEFs7kmMzJjzaKxZUu7UDR36C5FoBsIrs9rR1IAKb8eInwZ0cz_wf08uxS6EUyA073S7pDsem-MKUNYl6UhGZQIHICDHXtrzruLY7q_SWRyAEax|01031768543
+선종드라이버 |900102 |부산 |부산 | |사2 3434 |01031768543 |신한 |11022455856 |22년차 |11 |35인승 중형 | | | | |http://203.252.166.242:8080/picture/image+11586672721.jpg |http://203.252.166.242:8080/picture/image+11672918093.jpg |http://203.252.166.242:8080/picture/image+1-1147018728.jpg |http://203.252.166.242:8080/picture/image+199189890.jpg |http://203.252.166.242:8080/picture/image+1637907081.jpg |http://203.252.166.242:8080/picture/image+12013991670.jpg |http://203.252.166.242:8080/picture/image+11611124440.jpg |
+선종드라이버 |900102 |부산 |부산 | |사2 3434 |01031768543 |신한 |11022455856 |22년차 |11 |35인승 중형 | | | | |http://203.252.166.242:8080/picture/image+11586672721.jpg |http://203.252.166.242:8080/picture/image+11672918093.jpg |http://203.252.166.242:8080/picture/image+1-1147018728.jpg |http://203.252.166.242:8080/picture/image+199189890.jpg |http://203.252.166.242:8080/picture/image+1637907081.jpg |http://203.252.166.242:8080/picture/image+12013991670.jpg |http://203.252.166.242:8080/picture/image+11611124440.jpg |update driver_info set driver_name = '선종드라이버', birthday = '900102', region = '부산', bus_group = '부산', driver_img = 'http://203.252.166.242:8080/picture/image+11586672721.jpg', bus_num = '사2 3434', confirm = 'http://203.252.166.242:8080/picture/image+11611124440.jpg', license = 'http://203.252.166.242:8080/picture/image+12013991670.jpg', phone_num = '01031768543', account_bank = '신한', point = '0' ,account_num = '11022455856', career = '22년차', lent_cost = '', join_day = '2016-12-15' where phone_num = '01031768543' |insert into bus_info(bus_num, bus_type, bus_age, bus_confirm, bus_inner_img, bus_inner_img2, bus_outer_img, bus_outer_img2, cur_people, money_flag, money_flag2, money_flag3, money_flag4, money_flag5, money_flag6, account_flag) values ( '사2 3434', '35인승 중형', '11', '', 'http://203.252.166.242:8080/picture/image+11672918093.jpg', 'http://203.252.166.242:8080/picture/image+1-1147018728.jpg', 'http://203.252.166.242:8080/picture/image+199189890.jpg', 'http://203.252.166.242:8080/picture/image+1637907081.jpg', '', '', '', '', '','', '', '') |
+2016-12-22|
+2016-12-22|
+2016-12-22|"registration_ids" field cannot be empty
+----------
+send_bus  사2 3434|261|454545|1|1user : testingting  tokens : eGQvPgoove8:APA91bEVYafaVE-zynFL401OaTZfeYXihKzyCqiLZQxL4JiIpKnGdSQqdXQrFCXPJGwXASX05oa-WDSz2rcLWe8K4aBaBcB-IKSa7wO1uiNJ1eqEy_e7BmiG8aEi4ylxc_WRdHobaAud   message {"multicast_id":7645731106423554805,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1481785188905308%8f4e9db88f4e9db8"}]}push send
+261|
+testingting|261|사2 3434
+사2 3434
+사2 3434
+사6 6686
+testingting----------사2 3434{"multicast_id":6089897199935674284,"success":2,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1481788384675957%8f4e9db88f4e9db8"},{"message_id":"0:1481788384675953%c09b472ec09b472e"}]}----------
+사2 3434
+사2 3434
+----------"registration_ids" field cannot be empty
+----------
+사2 3434

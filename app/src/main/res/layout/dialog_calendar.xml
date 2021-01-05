@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="287dp"
+    android:layout_height="400dp"
+    android:background="@color/AppColorWhite">
+
+    <TextView
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:text="출발일"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CalendarView
+        android:id="@+id/dialog_calender"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:focusedMonthDateColor="@color/colorPrimary">
+
+    </CalendarView>
+</LinearLayout>

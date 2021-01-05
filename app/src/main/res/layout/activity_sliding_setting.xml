@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/AppColorWhite"
+        android:orientation="vertical">
+
+        <include layout="@layout/white_titlebar_sliding"></include>
+
+        <LinearLayout
+            android:background="@color/AppColorLightGrayTwo"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"></LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="60dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="계좌 번호"
+                        android:textSize="22sp" />
+
+                    <Spinner
+
+                        android:id="@+id/activity_sliding_setting_sp_bank"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/sliding_setting_spinnerbox"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/sliding_setting_box">
+
+                        <EditText
+                            android:id="@+id/activity_sliding_setting_et_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="#ffffff"
+                            android:digits="0123456789"
+                            android:hint="'-'없이 입력"
+                            android:imeOptions="actionDone"
+                            android:lines="1"
+                            android:maxLines="1"
+                            android:textColor="#000000"
+                            android:textSize="23sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="푸시 알림"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="22sp" />
+
+                        <LinearLayout
+                            android:gravity="right"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:id="@+id/activity_sliding_setting_on_or_off_layout"
+                                android:layout_width="110dp"
+                                android:layout_height="30dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dp"
+                                android:background="@drawable/notice_on">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/activity_sliding_setting_tv_on_text"
+                                        android:layout_width="55dp"
+                                        android:layout_height="30dp"
+                                        android:gravity="center"
+                                        android:text="켜기"
+                                        android:textColor="@color/AppColorWhite"
+                                        android:textSize="15sp" />
+
+                                    <TextView
+                                        android:id="@+id/activity_sliding_setting_tv_off_text"
+                                        android:layout_width="55dp"
+                                        android:layout_height="30dp"
+                                        android:gravity="center"
+                                        android:text="끄기"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="15sp" />
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/activity_sliding_setting_bt_cancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/sliding_setting_cancel_button"
+                        android:text="회원 탈퇴"
+                        android:textColor="@color/AppColorWhite"
+                        android:textSize="22sp"></Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/AppColorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"></LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/activity_sliding_setting_tv_enter"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="설정 완료"
+            android:textColor="@color/AppColorWhite"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</RelativeLayout>

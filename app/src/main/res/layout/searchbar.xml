@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+    <RelativeLayout style="@style/SearchBar">
+
+        <ImageView
+            android:id="@+id/activity_searchmap_searchicon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:onClick="onClick_menu"
+            android:src="@drawable/searchmap_searchicon" />
+
+        <EditText
+            style="@style/searchbar_et"
+            android:id="@+id/activity_searchmap_et_search"
+            android:focusable ="true"
+            android:textSize="20sp"
+            android:background="@null"
+            android:imeOptions="actionSearch"
+            >
+            <requestFocus />
+            </EditText>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/searchmap_searchline" />
+
+    <RelativeLayout style="@style/SearchBar">
+
+        <ImageView
+            android:id="@+id/activity_searchmap_current"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:onClick="onClick_menu"
+            android:src="@drawable/searchmap_current_pos" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/activity_searchmap_tv_currentpos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#ff0000"
+                android:text="현재 위치"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="를 출발지로 설정하기"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/searchmap_current_posline" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <ListView
+            android:id="@+id/activity_searchmap_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+        <TextView
+            android:id="@+id/activity_searchmap_no_searchresult_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="검색 결과가 없습니다."
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_searchmap_backbutton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/AppColorLightGray"
+            android:gravity="center"
+            android:text="뒤로 가기"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:textAlignment="center"
+            android:textColor="@color/AppColorWhite"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/activity_searchmap_submitbutton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="설정 완료"
+            android:textAlignment="center"
+            android:onClick="onClick"
+            android:layout_weight="1"
+            android:textColor="@color/AppColorWhite"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</LinearLayout>

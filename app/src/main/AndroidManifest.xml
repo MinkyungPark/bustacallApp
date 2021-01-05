@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bustacall.user.bustacall">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="버스타콜"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.Activity_Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.Activity_Signin">
+        </activity>
+        <activity android:name=".view.Activity_Main">
+        </activity>
+        <activity android:name=".view.Activity_SearchMap">
+        </activity>
+        <activity android:name=".view.Activity_Sliding_Inquiry">
+        </activity>
+        <activity android:name=".view.Activity_Sliding_Use_List">
+        </activity>
+        <activity android:name=".view.Activity_Sliding_Setting">
+        </activity>
+        <activity android:name=".view.Activity_Sliding_My_Point">
+        </activity>
+        <activity android:name=".view.Activity_Sliding_Tourist">
+        </activity>
+        <activity android:name=".view.Activity_tourist_detail">
+        </activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".view.Activity_MapView">
+        </activity>
+        <activity android:name=".view.Activity_BudgetQuoteCal">
+        </activity>
+        <activity android:name=".view.Activity_Reservation_List">
+        </activity>
+        <activity android:name=".view.Activity_driver_info">
+        </activity>
+        <activity android:name=".view.Activity_Payment">
+        </activity>
+        <activity android:name=".view.Activity_Reservation_Clear">
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".view.Activity_Together_Destination">
+        </activity>
+        <activity android:name=".view.Activity_Together_Reason">
+        </activity>
+        <activity android:name=".view.Activity_Make_Together">
+        </activity>
+        <activity android:name=".view.Activity_Empty_Sit_Detail">
+        </activity>
+        <activity android:name=".view.Activity_Together_Sit_Detail">
+        </activity>
+        <service
+            android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

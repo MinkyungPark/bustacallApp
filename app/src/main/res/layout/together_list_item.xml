@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/together_list_item_ll_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center|center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/blue_dayandtime_icon_" />
+
+                <TextView
+                    android:id="@+id/together_list_item_tv_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="2016년 6월 30일"
+                    android:textColor="@color/AppColorBlack"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/together_list_item_tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="오전 9:00"
+                    android:textColor="@color/AppColorBlack"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp">
+
+                <ImageView
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/between_line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/together_list_item_iv_line"
+                        android:layout_width="20dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="95dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/together_list_item_tv_start"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:lines="1"
+                            android:singleLine="true"
+                            android:text="기흥 도서관"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="20sp" />
+                        <TextView
+                            android:id="@+id/together_list_item_tv_end"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom"
+                            android:singleLine="true"
+                            android:text="부산역"
+                            android:textColor="@color/AppColorBlack"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:background="@drawable/rectangle_box"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/rental_blue_icon"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp" />
+
+                        <LinearLayout
+                            android:gravity="right"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/together_list_item_tv_reason"
+                                android:textColor="@color/AppColorBlack"
+                                android:layout_marginRight="10dp"
+                                android:text="산악회"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <ImageView
+                                android:id="@+id/together_list_item_iv_image"
+                                android:layout_marginRight="2dp"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp" />
+                            <LinearLayout
+                                android:id="@+id/together_list_item_ll_sit_type"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:background="@drawable/mint_rectangle_box"
+                                android:layout_marginLeft="2dp"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp">
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <ImageView
+                                        android:id="@+id/together_list_item_iv_sit"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp" />
+                                </LinearLayout>
+                                <TextView
+                                    android:id="@+id/together_list_item_tv_user"
+                                    android:layout_weight="1"
+                                    android:textColor="@color/AppColorMint"
+                                    android:text="41/45"
+                                    android:textSize="15sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                                <TextView
+                                    android:id="@+id/together_list_item_tv_user_min"
+                                    android:layout_weight="1"
+                                    android:textColor="@color/AppColorMint"
+                                    android:text="최소 40명"
+                                    android:textSize="15sp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/between_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="잔여 좌석"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/together_list_item_tv_sit_count"
+                        android:textColor="@color/AppColorBlack"
+                        android:text="4석"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="가격"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/together_list_item_tv_money"
+                        android:textColor="@color/AppColorBlack"
+                        android:layout_marginLeft="20dp"
+                        android:text="25000원"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

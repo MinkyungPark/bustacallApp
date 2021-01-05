@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="320dp"
+    android:layout_height="220dp"
+    android:background="@color/AppColorWhite">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="은행 : 농협\n계좌 번호 : 100-222-333333\n예금주 : 버스타콜"
+            android:id="@+id/dialog_base_text"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <TextView
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textColor="@color/AppColorBlack"
+            android:text="입금 확인후 예매가 완료됩니다."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/dialog_base_enter"
+        android:textColor="@color/AppColorWhite"
+        android:background="@color/colorPrimary"
+        android:textSize="28sp"
+        android:text="확인"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

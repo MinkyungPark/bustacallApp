@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"></LinearLayout>
+
+    <RelativeLayout
+        style="@style/White_TitleBar">
+
+            <ImageView
+                android:id="@+id/activity_main_iv_menu"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:onClick="onClick_menu"
+                android:src ="@drawable/menu_icon"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/whitetitlebar_main_tv_reservation_bus"
+                    android:onClick="onClick_reservationBus"
+                    android:text="버스 예약"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/roundbutton_blue"
+                    style="@style/reservation_button"
+                    />
+
+                <TextView
+                    android:id="@+id/whitetitlebar_main_tv_reservation_to"
+                    android:onClick="onClick_reservationTo"
+                    android:background="@drawable/roundbutton_gray"
+                    android:text="합승 예약"
+                    android:textColor="@color/colorPrimary"
+                    style="@style/reservation_button"
+                     />
+            </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/whitetitlebar_main_ll_buttonbar"
+        android:background="@drawable/left_buttonbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/whitetitlebar_main_ll_goandback"
+            android:gravity="center"
+            android:onClick="onClick_GoandBack"
+            android:background="#00000000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:clickable="false"
+                android:id="@+id/whitetitlebar_main_iv_goandback_image"
+                android:src="@drawable/goandback_blue"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:clickable="false"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/whitetitlebar_main_tv_goandback_text"
+                android:text="왕복"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:clickable="false"
+                android:id="@+id/whitetitlebar_main_iv_goandback_checkpoint"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/checkpoint"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/whitetitlebar_main_ll_go"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:onClick="onClick_Go"
+            android:background="#00000000"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:clickable="false"
+                android:id="@+id/whitetitlebar_main_iv_go_image"
+                android:src="@drawable/go_white"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:clickable="false"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/whitetitlebar_main_tv_go_text"
+                android:text="편도"
+                android:textColor="#ABAAAA"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:clickable="false"
+                android:id="@+id/whitetitlebar_main_iv_go_checkpoint"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/checkpoint"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

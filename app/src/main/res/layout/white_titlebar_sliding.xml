@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            style="@style/Blue_TitleBar"
+            android:background="@color/AppColorWhite">
+
+            <ImageView
+                android:id="@+id/layout_titlebar_iv_back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="26dp"
+                android:onClick="onClick_backButton"
+                android:src ="@drawable/blue_back_button"/>
+
+            <TextView
+                android:id="@+id/white_titlebar_sliding_tv_title"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/titlesize" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

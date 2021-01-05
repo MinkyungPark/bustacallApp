@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BustaCall</string>
+    <string name="signin">로그인</string>
+
+    <string name="requestfail">연결에 실패하였습니다.</string>
+    <string name="logout_content">로그아웃시 다시 회원가입을 해야 합니다.</string>
+</resources>

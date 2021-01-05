@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_marginTop="220dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/bustacall_log_image"
+            android:layout_width="294dp"
+            android:layout_height="75dp" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bustacall_log_text"
+            android:layout_width="101dp"
+            android:layout_height="35dp" />
+
+        <Button
+            android:onClick="onClick"
+            android:id="@+id/activity_splash_bt_login"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_button"
+            android:layout_width="260dp"
+            android:layout_height="45dp" />
+    </LinearLayout>
+</RelativeLayout>

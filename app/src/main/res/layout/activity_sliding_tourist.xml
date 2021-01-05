@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppColorWhite">
+
+    <include
+        layout="@layout/white_titlebar_sliding"></include>
+    <LinearLayout
+        android:background="@color/AppColorLightGrayTwo"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:background="@drawable/tour_spinner_box"
+            android:layout_marginRight="2.5dp"
+            android:layout_weight="1"
+            android:id="@+id/activity_sliding_tourist_sp_areacode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></Spinner>
+
+        <Spinner
+            android:background="@drawable/tour_spinner_box"
+            android:layout_marginLeft="2.5dp"
+            android:layout_weight="1"
+            android:id="@+id/activity_sliding_tourist_sp_sigungo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/activity_sliding_tourist_bt_tour"
+                android:textColor="@color/AppColorWhite"
+                android:text="관광"
+                android:background="@drawable/tour_box_on"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sliding_tourist_bt_motel"
+                android:textColor="@color/AppColorGray"
+                android:text="숙박"
+                android:background="@drawable/tour_box_off"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/activity_sliding_tourist_bt_food"
+                android:textColor="@color/AppColorGray"
+                android:text="식당"
+                android:background="@drawable/tour_box_off"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/activity_sliding_tourist_lv_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "272461160847",
+    "firebase_url": "https://bustacall-cdabb.firebaseio.com",
+    "project_id": "bustacall-cdabb",
+    "storage_bucket": "bustacall-cdabb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272461160847:android:73007091d8599d00",
+        "android_client_info": {
+          "package_name": "com.bustacall.user.bustacall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272461160847-e35h5ht4gsndbjpq93ls2qmtq8bkd1en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgm4mJp-ms2_O5kXSv8MNlg1cp6K2WMGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
